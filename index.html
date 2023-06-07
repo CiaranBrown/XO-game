@@ -13,28 +13,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Gelasio:wght@700&display=swap"
       rel="stylesheet"
     />
   </head>
+
   <body>
     <h1>XO Game</h1>
     <div class="grid-container">
-      <div class="box top left"></div>
-      <div class="box top"></div>
-      <div class="box top right"></div>
+      <div class="box top left" id="box" data-box></div>
+      <div class="box top" id="box" data-box></div>
+      <div class="box top right" id="box" data-box></div>
 
-      <div class="box left"></div>
-      <div class="box"></div>
-      <div class="box right"></div>
+      <div class="box left" id="box" data-box></div>
+      <div class="box" id="box" data-box></div>
+      <div class="box right" id="box" data-box></div>
 
-      <div class="box bottom left"></div>
-      <div class="box bottom"></div>
-      <div class="box bottom right"></div>
+      <div class="box bottom left" id="box" data-box></div>
+      <div class="box bottom" id="box" data-box></div>
+      <div class="box bottom right" id="box" data-box></div>
     </div>
 
     <div class="result-alert">
+      X Wins!
       <button id="restartButton">Restart</button>
     </div>
+
+    <!-- Link for JavaScript -->
+    <script src="main.js"></script>
   </body>
 </html>
